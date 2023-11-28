@@ -1,3 +1,3 @@
-from window import *
-from Zgraphics import *
-from Zdefinitions import *
+from MainCore.window import *
+from MainCore.Zgraphics import *
+from MainCore.Zdefinitions import *
