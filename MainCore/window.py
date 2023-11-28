@@ -10,7 +10,6 @@ class ZN_window():
         self.root.resizable(0,0)
         self.canvas.create_rectangle(0, 0, 800, 450, fill='#00003c')
     def Update(self):
-        self.canvas.create_rectangle(0, 0, 800, 450, fill='#00003c')
         self.root.update()
     def Mainloop(self):
         self.root.mainloop()
@@ -28,3 +27,5 @@ class ZN_window():
         self.root.attributes('-fullscreen',True)
     def Window(self):
         self.root.attributes('-fullscreen',False)
+    def Clear(self):
+        self.canvas.create_rectangle(0, 0, 800, 450, fill='#00003c')
