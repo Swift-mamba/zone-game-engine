@@ -8,7 +8,7 @@ import keyboard as kb
 global ticks
 ticks = 0
 def Keypressed(argone):
-    OOO = kb.getpressed(argone)
+    OOO = kb.is_pressed(argone)
     return(OOO)
 def ZN_Deinit():
     quit()
