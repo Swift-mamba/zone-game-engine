@@ -20,7 +20,7 @@ class ZN_window():
         REALY = str(y)
         STRING = REALX+"x"+REALY
         self.root.geometry(STRING)
-    def Getcanvas(self):
+    def Getgraphic(self):
         TORETURN = self.canvas
         return(TORETURN)
     def Fullscreen(self):
