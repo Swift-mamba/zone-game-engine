@@ -13,6 +13,7 @@ def Keypressed(argone):
 def ZN_Deinit():
     quit()
 def ZN_Tick():
+    global ticks
     ticks += 1
-def GetTicks():
+def ZN_GetTicks():
     return(ticks)
